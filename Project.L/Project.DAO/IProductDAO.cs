@@ -1,4 +1,6 @@
 ﻿using Project.Entities;
+using Project.Entities.DTO;
+using Project.Entities.DTO.Common;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -16,5 +18,6 @@ namespace Project.DAO
         Task<int> AddAsync(Product product);
         Task<bool> UpdateAsync(Product product);
         Task<bool> DeleteAsync(int id);
+        Task<PageResponse<ProductTypeDTO>> GetPagedProductTypeList(PageRequest request, string whereId);
     }
 }

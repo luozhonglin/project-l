@@ -1,5 +1,7 @@
 ﻿using Project.DAO;
 using Project.Entities;
+using Project.Entities.DTO;
+using Project.Entities.DTO.Common;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -19,6 +21,11 @@ namespace Project.Service.Impl
         public Task<IEnumerable<Product>> GetActiveProductsAsync()
         {
             return ProductDAO.GetActiveProductsAsync();
+        }
+
+        public Task<PageResponse<ProductTypeDTO>> GetPagedProductTypeList(PageRequest request, string whereId)
+        {
+            return ProductDAO.GetPagedProductTypeList(request, whereId);
         }
     }
 }

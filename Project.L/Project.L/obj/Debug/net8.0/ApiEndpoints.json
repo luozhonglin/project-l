@@ -20,6 +20,52 @@
     ]
   },
   {
+    "ContainingType": "Project.L.Controllers.ProductsController",
+    "Method": "GetPagedProductTypeList",
+    "RelativePath": "api/Products/GetPagedProductTypeList",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "PageNumber",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "PageSize",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "OrderBy",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "IsDescending",
+        "Type": "System.Boolean",
+        "IsRequired": false
+      },
+      {
+        "Name": "whereId",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Project.Entities.DTO.Common.PageResponse\u00601[[Project.Entities.DTO.ProductTypeDTO, Project.Entities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
     "ContainingType": "Project.L.Controllers.TokenController",
     "Method": "Login",
     "RelativePath": "api/Token/Login/login",

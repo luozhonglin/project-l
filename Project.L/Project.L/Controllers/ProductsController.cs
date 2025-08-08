@@ -1,5 +1,8 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Http.HttpResults;
+using Microsoft.AspNetCore.Mvc;
 using Project.Entities;
+using Project.Entities.DTO;
+using Project.Entities.DTO.Common;
 using Project.Service;
 
 namespace Project.L.Controllers
@@ -120,6 +123,14 @@ namespace Project.L.Controllers
 
             var products = await ProductService.GetActiveProductsAsync();
             return new JsonResult(products);
+        }
+
+
+        [HttpGet]
+        public async Task<ActionResult<PageResponse<ProductTypeDTO>>> GetPagedProductTypeList([FromQuery]PageRequest request, [FromQuery]string? whereId=null)
+        { 
+            var result = await ProductService.GetPagedProductTypeList(request, whereId);
+            return new JsonResult(result);
         }
 
     }
