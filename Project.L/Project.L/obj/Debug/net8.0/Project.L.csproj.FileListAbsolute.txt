@@ -175,3 +175,5 @@ C:\other\project-l\Project.L\Project.L\obj\Debug\net8.0\Project.L.genruntimeconf
 C:\other\project-l\Project.L\Project.L\obj\Debug\net8.0\ref\Project.L.dll
 C:\other\project-l\Project.L\Project.L\bin\Debug\net8.0\AutofacSerilogIntegration.dll
 C:\other\project-l\Project.L\Project.L\bin\Debug\net8.0\Serilog.dll
+C:\other\project-l\Project.L\Project.L\bin\Debug\net8.0\Pipelines.Sockets.Unofficial.dll
+C:\other\project-l\Project.L\Project.L\bin\Debug\net8.0\StackExchange.Redis.dll

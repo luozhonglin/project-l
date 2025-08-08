@@ -128,7 +128,8 @@ namespace Project.L.Controllers
 
         [HttpGet]
         public async Task<ActionResult<PageResponse<ProductTypeDTO>>> GetPagedProductTypeList([FromQuery]PageRequest request, [FromQuery]string? whereId=null)
-        { 
+        {
+            var userId = CurrentUserId;
             var result = await ProductService.GetPagedProductTypeList(request, whereId);
             return new JsonResult(result);
         }

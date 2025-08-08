@@ -11,6 +11,7 @@ using Project.DAO.Impl;
 using Project.DAO.Impl.DataBase;
 using Project.L.Common;
 using Project.Service.Impl;
+using StackExchange.Redis;
 using System.Reflection;
 using System.Text;
 using static Mysqlx.Error.Types;
@@ -82,7 +83,6 @@ namespace Project.L
                      new List<string>()
                     }
                 });
-                //c.SwaggerDoc("v1", new() { Title = "Luo.API", Version = "v1" });
             });
 
 
@@ -99,6 +99,8 @@ namespace Project.L
 
             //全局异常处理
             services.AddScoped<GlobalExceptionMiddleware>();
+
+            services.AddSingleton<IConnectionMultiplexer>(_ =>ConnectionMultiplexer.Connect(Configuration.GetConnectionString("Redis")));
         }
 
 
@@ -135,6 +137,10 @@ namespace Project.L
                     //不展开控制器
                     c.DocExpansion(Swashbuckle.AspNetCore.SwaggerUI.DocExpansion.None);
                 });
+            }
+            else
+            {
+                app.UseExceptionHandler("/Error");
             }
             app.UseRouting();
             app.UseCors();

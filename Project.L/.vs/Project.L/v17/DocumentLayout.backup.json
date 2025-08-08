@@ -3,68 +3,36 @@
   "WorkspaceRootPath": "C:\\other\\project-l\\Project.L\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{57EF44EB-65BC-40B2-B513-515EF280A84B}|Project.DAO.Impl\\Project.DAO.Impl.csproj|c:\\other\\project-l\\project.l\\project.dao.impl\\database\\baserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{57EF44EB-65BC-40B2-B513-515EF280A84B}|Project.DAO.Impl\\Project.DAO.Impl.csproj|solutionrelative:project.dao.impl\\database\\baserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C0D50B5F-58E9-41CB-AC09-E136D5B7CDE2}|Project.L\\Project.L.csproj|c:\\other\\project-l\\project.l\\project.l\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{C0D50B5F-58E9-41CB-AC09-E136D5B7CDE2}|Project.L\\Project.L.csproj|solutionrelative:project.l\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{88CE85A8-471A-447D-842D-64CB74FBD5C7}|Project.Entities\\Project.Entities.csproj|c:\\other\\project-l\\project.l\\project.entities\\dto\\common\\page.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{88CE85A8-471A-447D-842D-64CB74FBD5C7}|Project.Entities\\Project.Entities.csproj|solutionrelative:project.entities\\dto\\common\\page.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{57EF44EB-65BC-40B2-B513-515EF280A84B}|Project.DAO.Impl\\Project.DAO.Impl.csproj|c:\\other\\project-l\\project.l\\project.dao.impl\\productdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{57EF44EB-65BC-40B2-B513-515EF280A84B}|Project.DAO.Impl\\Project.DAO.Impl.csproj|solutionrelative:project.dao.impl\\productdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C0D50B5F-58E9-41CB-AC09-E136D5B7CDE2}|Project.L\\Project.L.csproj|c:\\other\\project-l\\project.l\\project.l\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C0D50B5F-58E9-41CB-AC09-E136D5B7CDE2}|Project.L\\Project.L.csproj|solutionrelative:project.l\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{88CE85A8-471A-447D-842D-64CB74FBD5C7}|Project.Entities\\Project.Entities.csproj|c:\\other\\project-l\\project.l\\project.entities\\dto\\producttypedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{88CE85A8-471A-447D-842D-64CB74FBD5C7}|Project.Entities\\Project.Entities.csproj|solutionrelative:project.entities\\dto\\producttypedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EFB70D97-F329-4E23-93A9-43B68F08BCBF}|Project.Service.Impl\\Project.Service.Impl.csproj|c:\\other\\project-l\\project.l\\project.service.impl\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EFB70D97-F329-4E23-93A9-43B68F08BCBF}|Project.Service.Impl\\Project.Service.Impl.csproj|solutionrelative:project.service.impl\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{88CE85A8-471A-447D-842D-64CB74FBD5C7}|Project.Entities\\Project.Entities.csproj|c:\\other\\project-l\\project.l\\project.entities\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{88CE85A8-471A-447D-842D-64CB74FBD5C7}|Project.Entities\\Project.Entities.csproj|solutionrelative:project.entities\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{88CE85A8-471A-447D-842D-64CB74FBD5C7}|Project.Entities\\Project.Entities.csproj|c:\\other\\project-l\\project.l\\project.entities\\userinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{88CE85A8-471A-447D-842D-64CB74FBD5C7}|Project.Entities\\Project.Entities.csproj|solutionrelative:project.entities\\userinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C0D50B5F-58E9-41CB-AC09-E136D5B7CDE2}|Project.L\\Project.L.csproj|c:\\other\\project-l\\project.l\\project.l\\controllers\\tokencontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C0D50B5F-58E9-41CB-AC09-E136D5B7CDE2}|Project.L\\Project.L.csproj|solutionrelative:project.l\\controllers\\tokencontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{57EF44EB-65BC-40B2-B513-515EF280A84B}|Project.DAO.Impl\\Project.DAO.Impl.csproj|c:\\other\\project-l\\project.l\\project.dao.impl\\userinfodao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{57EF44EB-65BC-40B2-B513-515EF280A84B}|Project.DAO.Impl\\Project.DAO.Impl.csproj|solutionrelative:project.dao.impl\\userinfodao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E0842508-E652-4ACF-AD50-990E13F5BBD8}|Project.SDK\\Project.SDK.csproj|c:\\other\\project-l\\project.l\\project.sdk\\redis\\redisservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0842508-E652-4ACF-AD50-990E13F5BBD8}|Project.SDK\\Project.SDK.csproj|solutionrelative:project.sdk\\redis\\redisservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C0D50B5F-58E9-41CB-AC09-E136D5B7CDE2}|Project.L\\Project.L.csproj|c:\\other\\project-l\\project.l\\project.l\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C0D50B5F-58E9-41CB-AC09-E136D5B7CDE2}|Project.L\\Project.L.csproj|solutionrelative:project.l\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{C0D50B5F-58E9-41CB-AC09-E136D5B7CDE2}|Project.L\\Project.L.csproj|c:\\other\\project-l\\project.l\\project.l\\controllers\\tokencontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C0D50B5F-58E9-41CB-AC09-E136D5B7CDE2}|Project.L\\Project.L.csproj|solutionrelative:project.l\\controllers\\tokencontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57EF44EB-65BC-40B2-B513-515EF280A84B}|Project.DAO.Impl\\Project.DAO.Impl.csproj|c:\\other\\project-l\\project.l\\project.dao.impl\\productdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{57EF44EB-65BC-40B2-B513-515EF280A84B}|Project.DAO.Impl\\Project.DAO.Impl.csproj|solutionrelative:project.dao.impl\\productdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{C0D50B5F-58E9-41CB-AC09-E136D5B7CDE2}|Project.L\\Project.L.csproj|c:\\other\\project-l\\project.l\\project.l\\controllers\\baseapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C0D50B5F-58E9-41CB-AC09-E136D5B7CDE2}|Project.L\\Project.L.csproj|solutionrelative:project.l\\controllers\\baseapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C0D50B5F-58E9-41CB-AC09-E136D5B7CDE2}|Project.L\\Project.L.csproj|c:\\other\\project-l\\project.l\\project.l\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{C0D50B5F-58E9-41CB-AC09-E136D5B7CDE2}|Project.L\\Project.L.csproj|solutionrelative:project.l\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{C0D50B5F-58E9-41CB-AC09-E136D5B7CDE2}|Project.L\\Project.L.csproj|c:\\other\\project-l\\project.l\\project.l\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C0D50B5F-58E9-41CB-AC09-E136D5B7CDE2}|Project.L\\Project.L.csproj|solutionrelative:project.l\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C0D50B5F-58E9-41CB-AC09-E136D5B7CDE2}|Project.L\\Project.L.csproj|c:\\other\\project-l\\project.l\\project.l\\common\\requestmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C0D50B5F-58E9-41CB-AC09-E136D5B7CDE2}|Project.L\\Project.L.csproj|solutionrelative:project.l\\common\\requestmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EFB70D97-F329-4E23-93A9-43B68F08BCBF}|Project.Service.Impl\\Project.Service.Impl.csproj|c:\\other\\project-l\\project.l\\project.service.impl\\userinfoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EFB70D97-F329-4E23-93A9-43B68F08BCBF}|Project.Service.Impl\\Project.Service.Impl.csproj|solutionrelative:project.service.impl\\userinfoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BE0FCC8F-F959-4BF3-BDFA-67CE9BBE5278}|Project.Service\\Project.Service.csproj|c:\\other\\project-l\\project.l\\project.service\\iuserinfoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BE0FCC8F-F959-4BF3-BDFA-67CE9BBE5278}|Project.Service\\Project.Service.csproj|solutionrelative:project.service\\iuserinfoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -74,7 +42,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -90,210 +58,106 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Page.cs",
-              "DocumentMoniker": "C:\\other\\project-l\\Project.L\\Project.Entities\\DTO\\Common\\Page.cs",
-              "RelativeDocumentMoniker": "Project.Entities\\DTO\\Common\\Page.cs",
-              "ToolTip": "C:\\other\\project-l\\Project.L\\Project.Entities\\DTO\\Common\\Page.cs",
-              "RelativeToolTip": "Project.Entities\\DTO\\Common\\Page.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAWAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-08T02:38:47.894Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "ProductTypeDTO.cs",
-              "DocumentMoniker": "C:\\other\\project-l\\Project.L\\Project.Entities\\DTO\\ProductTypeDTO.cs",
-              "RelativeDocumentMoniker": "Project.Entities\\DTO\\ProductTypeDTO.cs",
-              "ToolTip": "C:\\other\\project-l\\Project.L\\Project.Entities\\DTO\\ProductTypeDTO.cs",
-              "RelativeToolTip": "Project.Entities\\DTO\\ProductTypeDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-08T02:27:42.091Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Product.cs",
-              "DocumentMoniker": "C:\\other\\project-l\\Project.L\\Project.Entities\\Product.cs",
-              "RelativeDocumentMoniker": "Project.Entities\\Product.cs",
-              "ToolTip": "C:\\other\\project-l\\Project.L\\Project.Entities\\Product.cs",
-              "RelativeToolTip": "Project.Entities\\Product.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-08T02:23:23.722Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "BaseRepository.cs",
-              "DocumentMoniker": "C:\\other\\project-l\\Project.L\\Project.DAO.Impl\\DataBase\\BaseRepository.cs",
-              "RelativeDocumentMoniker": "Project.DAO.Impl\\DataBase\\BaseRepository.cs",
-              "ToolTip": "C:\\other\\project-l\\Project.L\\Project.DAO.Impl\\DataBase\\BaseRepository.cs",
-              "RelativeToolTip": "Project.DAO.Impl\\DataBase\\BaseRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEEAAAAvAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-08T02:11:42.451Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ProductDAO.cs",
-              "DocumentMoniker": "C:\\other\\project-l\\Project.L\\Project.DAO.Impl\\ProductDAO.cs",
-              "RelativeDocumentMoniker": "Project.DAO.Impl\\ProductDAO.cs",
-              "ToolTip": "C:\\other\\project-l\\Project.L\\Project.DAO.Impl\\ProductDAO.cs",
-              "RelativeToolTip": "Project.DAO.Impl\\ProductDAO.cs",
-              "ViewState": "AgIAADEAAAAAAAAAAAAWwFsAAAAoAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-08T02:10:58.273Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ProductsController.cs",
-              "DocumentMoniker": "C:\\other\\project-l\\Project.L\\Project.L\\Controllers\\ProductsController.cs",
-              "RelativeDocumentMoniker": "Project.L\\Controllers\\ProductsController.cs",
-              "ToolTip": "C:\\other\\project-l\\Project.L\\Project.L\\Controllers\\ProductsController.cs",
-              "RelativeToolTip": "Project.L\\Controllers\\ProductsController.cs",
-              "ViewState": "AgIAAFsAAAAAAAAAAAAAwIIAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-07T05:02:27.605Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "ProductService.cs",
-              "DocumentMoniker": "C:\\other\\project-l\\Project.L\\Project.Service.Impl\\ProductService.cs",
-              "RelativeDocumentMoniker": "Project.Service.Impl\\ProductService.cs",
-              "ToolTip": "C:\\other\\project-l\\Project.L\\Project.Service.Impl\\ProductService.cs",
-              "RelativeToolTip": "Project.Service.Impl\\ProductService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAABuAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-08T03:08:13.852Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "TokenController.cs",
-              "DocumentMoniker": "C:\\other\\project-l\\Project.L\\Project.L\\Controllers\\TokenController.cs",
-              "RelativeDocumentMoniker": "Project.L\\Controllers\\TokenController.cs",
-              "ToolTip": "C:\\other\\project-l\\Project.L\\Project.L\\Controllers\\TokenController.cs",
-              "RelativeToolTip": "Project.L\\Controllers\\TokenController.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA8AAAAgAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-07T05:54:53.703Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "UserInfoDAO.cs",
-              "DocumentMoniker": "C:\\other\\project-l\\Project.L\\Project.DAO.Impl\\UserInfoDAO.cs",
-              "RelativeDocumentMoniker": "Project.DAO.Impl\\UserInfoDAO.cs",
-              "ToolTip": "C:\\other\\project-l\\Project.L\\Project.DAO.Impl\\UserInfoDAO.cs",
-              "RelativeToolTip": "Project.DAO.Impl\\UserInfoDAO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-07T08:10:18.436Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Startup.cs",
-              "DocumentMoniker": "C:\\other\\project-l\\Project.L\\Project.L\\Startup.cs",
-              "RelativeDocumentMoniker": "Project.L\\Startup.cs",
-              "ToolTip": "C:\\other\\project-l\\Project.L\\Project.L\\Startup.cs",
-              "RelativeToolTip": "Project.L\\Startup.cs",
-              "ViewState": "AgIAACwAAAAAAAAAAAASwEkAAAAxAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-07T04:56:30.638Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "UserInfo.cs",
-              "DocumentMoniker": "C:\\other\\project-l\\Project.L\\Project.Entities\\UserInfo.cs",
-              "RelativeDocumentMoniker": "Project.Entities\\UserInfo.cs",
-              "ToolTip": "C:\\other\\project-l\\Project.L\\Project.Entities\\UserInfo.cs",
-              "RelativeToolTip": "Project.Entities\\UserInfo.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAASAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-07T08:06:44.13Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "RequestMiddleware.cs",
-              "DocumentMoniker": "C:\\other\\project-l\\Project.L\\Project.L\\Common\\RequestMiddleware.cs",
-              "RelativeDocumentMoniker": "Project.L\\Common\\RequestMiddleware.cs",
-              "ToolTip": "C:\\other\\project-l\\Project.L\\Project.L\\Common\\RequestMiddleware.cs",
-              "RelativeToolTip": "Project.L\\Common\\RequestMiddleware.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-07T08:45:59.5Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\other\\project-l\\Project.L\\Project.L\\appsettings.json",
               "RelativeDocumentMoniker": "Project.L\\appsettings.json",
               "ToolTip": "C:\\other\\project-l\\Project.L\\Project.L\\appsettings.json",
               "RelativeToolTip": "Project.L\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-08-07T07:14:29.697Z",
+              "WhenOpened": "2025-08-08T06:30:53.515Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 1,
+              "Title": "RedisService.cs",
+              "DocumentMoniker": "C:\\other\\project-l\\Project.L\\Project.SDK\\Redis\\RedisService.cs",
+              "RelativeDocumentMoniker": "Project.SDK\\Redis\\RedisService.cs",
+              "ToolTip": "C:\\other\\project-l\\Project.L\\Project.SDK\\Redis\\RedisService.cs",
+              "RelativeToolTip": "Project.SDK\\Redis\\RedisService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-08T06:29:10.528Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ProductDAO.cs",
+              "DocumentMoniker": "C:\\other\\project-l\\Project.L\\Project.DAO.Impl\\ProductDAO.cs",
+              "RelativeDocumentMoniker": "Project.DAO.Impl\\ProductDAO.cs",
+              "ToolTip": "C:\\other\\project-l\\Project.L\\Project.DAO.Impl\\ProductDAO.cs",
+              "RelativeToolTip": "Project.DAO.Impl\\ProductDAO.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAAewDgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-08T05:49:48.282Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "BaseApiController.cs",
               "DocumentMoniker": "C:\\other\\project-l\\Project.L\\Project.L\\Controllers\\BaseApiController.cs",
               "RelativeDocumentMoniker": "Project.L\\Controllers\\BaseApiController.cs",
               "ToolTip": "C:\\other\\project-l\\Project.L\\Project.L\\Controllers\\BaseApiController.cs",
               "RelativeToolTip": "Project.L\\Controllers\\BaseApiController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-07T09:20:45.898Z",
+              "WhenOpened": "2025-08-08T05:40:36.014Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "UserInfoService.cs",
-              "DocumentMoniker": "C:\\other\\project-l\\Project.L\\Project.Service.Impl\\UserInfoService.cs",
-              "RelativeDocumentMoniker": "Project.Service.Impl\\UserInfoService.cs",
-              "ToolTip": "C:\\other\\project-l\\Project.L\\Project.Service.Impl\\UserInfoService.cs",
-              "RelativeToolTip": "Project.Service.Impl\\UserInfoService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwBMAAAAIAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "TokenController.cs",
+              "DocumentMoniker": "C:\\other\\project-l\\Project.L\\Project.L\\Controllers\\TokenController.cs",
+              "RelativeDocumentMoniker": "Project.L\\Controllers\\TokenController.cs",
+              "ToolTip": "C:\\other\\project-l\\Project.L\\Project.L\\Controllers\\TokenController.cs",
+              "RelativeToolTip": "Project.L\\Controllers\\TokenController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADQAAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-07T08:20:53.152Z",
+              "WhenOpened": "2025-08-08T05:34:00.204Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "IUserInfoService.cs",
-              "DocumentMoniker": "C:\\other\\project-l\\Project.L\\Project.Service\\IUserInfoService.cs",
-              "RelativeDocumentMoniker": "Project.Service\\IUserInfoService.cs",
-              "ToolTip": "C:\\other\\project-l\\Project.L\\Project.Service\\IUserInfoService.cs",
-              "RelativeToolTip": "Project.Service\\IUserInfoService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAkAAAAAAAAAA==",
+              "DocumentIndex": 6,
+              "Title": "ProductsController.cs",
+              "DocumentMoniker": "C:\\other\\project-l\\Project.L\\Project.L\\Controllers\\ProductsController.cs",
+              "RelativeDocumentMoniker": "Project.L\\Controllers\\ProductsController.cs",
+              "ToolTip": "C:\\other\\project-l\\Project.L\\Project.L\\Controllers\\ProductsController.cs",
+              "RelativeToolTip": "Project.L\\Controllers\\ProductsController.cs",
+              "ViewState": "AgIAAGcAAAAAAAAAAAAAwIIAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-07T08:20:39.591Z",
+              "WhenOpened": "2025-08-08T05:29:28.898Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Startup.cs",
+              "DocumentMoniker": "C:\\other\\project-l\\Project.L\\Project.L\\Startup.cs",
+              "RelativeDocumentMoniker": "Project.L\\Startup.cs",
+              "ToolTip": "C:\\other\\project-l\\Project.L\\Project.L\\Startup.cs",
+              "RelativeToolTip": "Project.L\\Startup.cs",
+              "ViewState": "AgIAAEIAAAAAAAAAAAAQwGYAAACEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-08T05:26:38.173Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "RequestMiddleware.cs",
+              "DocumentMoniker": "C:\\other\\project-l\\Project.L\\Project.L\\Common\\RequestMiddleware.cs",
+              "RelativeDocumentMoniker": "Project.L\\Common\\RequestMiddleware.cs",
+              "ToolTip": "C:\\other\\project-l\\Project.L\\Project.L\\Common\\RequestMiddleware.cs",
+              "RelativeToolTip": "Project.L\\Common\\RequestMiddleware.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-07T08:45:59.5Z",
               "EditorCaption": ""
             }
           ]
