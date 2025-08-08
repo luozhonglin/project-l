@@ -19,7 +19,7 @@ namespace Project.DAO.Impl.DataBase
             _context = context;
         }
 
-        public async Task<T?> GetByIdAsync(int id)
+        public async Task<T?> GetByIdAsync(Guid id)
         {
             return await _context.Connection.GetAsync<T>(id);
         }

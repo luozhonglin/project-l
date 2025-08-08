@@ -10,5 +10,7 @@ namespace Project.DAO
     public interface IUserInfoDAO
     {
         Task<UserInfo?> GetInfoAsync(string username,string password);
+
+        Task<UserInfo?> GetByIdAsync(Guid id);
     }
 }

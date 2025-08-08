@@ -50,8 +50,7 @@ namespace Project.L
                     ValidateIssuerSigningKey = true,
                     ValidIssuer = Configuration["Jwt:Issuer"],
                     ValidAudience = Configuration["Jwt:Audience"],
-                    IssuerSigningKey = new SymmetricSecurityKey(
-                        Encoding.UTF8.GetBytes(Configuration["Jwt:Key"]))
+                    IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(Configuration["Jwt:Key"]))
                 };
             });
 
@@ -109,7 +108,7 @@ namespace Project.L
                 ConnectRetry = 3,
                 ConnectTimeout = 5000,
                 SyncTimeout = 5000,
-                DefaultDatabase = 2,
+                DefaultDatabase = 0,
                 AllowAdmin = true // 允许管理操作
             }));
         }

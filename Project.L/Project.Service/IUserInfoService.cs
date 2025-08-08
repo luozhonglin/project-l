@@ -10,5 +10,7 @@ namespace Project.Service
     public interface IUserInfoService
     {
         Task<UserInfo?> GetInfoAsync(string username, string password);
+
+        Task<UserInfo?> GetByIdAsync(Guid id);
     }
 }

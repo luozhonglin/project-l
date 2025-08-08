@@ -15,8 +15,12 @@ namespace Project.Service.Impl
         public async Task<UserInfo?> GetInfoAsync(string username, string password)
         { 
           return await UserInfoDAO.GetInfoAsync(username, password);
+        }
 
 
+        public async Task<UserInfo?> GetByIdAsync(Guid id)
+        {
+            return await UserInfoDAO.GetByIdAsync(id);
         }
     }
 }

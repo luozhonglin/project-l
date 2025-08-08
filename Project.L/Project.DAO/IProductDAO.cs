@@ -11,7 +11,7 @@ namespace Project.DAO
 {
     public interface IProductDAO
     {
-        Task<Product?> GetByIdAsync(int id);
+        Task<Product?> GetByIdAsync(Guid id);
         Task<IEnumerable<Product>> GetAllAsync();
         Task<IEnumerable<Product>> GetActiveProductsAsync();
         Task<IEnumerable<Product>> GetByPriceRangeAsync(decimal minPrice, decimal maxPrice);

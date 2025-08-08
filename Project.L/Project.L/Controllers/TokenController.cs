@@ -1,9 +1,11 @@
 ﻿using Google.Protobuf.WellKnownTypes;
+using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.IdentityModel.Tokens;
 using Project.Entities;
 using Project.Entities.UserToken;
+using Project.SDK;
 using Project.SDK.Redis;
 using Project.Service;
 using StackExchange.Redis;
@@ -26,17 +28,116 @@ namespace Project.L.Controllers
             _redisHelper = new RedisHelper(redis, "Token");
         }
 
+        /// <summary>
+        /// 登录
+        /// </summary>
+        /// <param name="loginModel"></param>
+        /// <returns></returns>
         [HttpPost("login")]
         [AllowAnonymous]
-        public async Task<IActionResult> Login([FromBody] TokenRequest loginModel)
+        public async Task<ActionResult<TokenResponse>> Login([FromBody] TokenRequest loginModel)
         {
             var user = await UserInfoService.GetInfoAsync(loginModel.AccountName, loginModel.Password);
             if (user == null) return Unauthorized();
 
             var token = GenerateJwtToken(user);
-            await _redisHelper.SetStringAsync("refreshId", Guid.NewGuid().ToString(), TimeSpan.FromMinutes(10));
-            return Ok(new { token });
+
+            var refreshToken = Guid.NewGuid().ToString("n");
+            await _redisHelper.SetStringAsync($"RefreshTokenId:{user.id.ToString()}", refreshToken, TimeSpan.FromMinutes(SafeConvert.ToInt32(_config["Jwt:RefreshTokenExpiration"])));
+            var result = new TokenResponse()
+            {
+                AccessToken = token,
+                RefreshToken = refreshToken,
+                AccessTokenExpiration = DateTime.Now.AddMinutes(SafeConvert.ToInt32(_config["Jwt:AccessTokenExpiration"])),
+                RefreshTokenExpiration = DateTime.Now.AddMinutes(SafeConvert.ToInt32(_config["Jwt:RefreshTokenExpiration"]))
+
+            };
+            return new JsonResult(result);
         }
+
+
+        /// <summary>
+        /// 刷新token
+        /// </summary>
+        /// <param name="loginModel"></param>
+        /// <returns></returns>
+        [HttpPost]
+        public async Task<ActionResult<TokenResponse>> RefreshToken([FromBody] TokenRefreshRequest request)
+        {
+            UserInfo userInfo;
+            TokenResponse result = new TokenResponse();
+            try
+            {
+                JwtSecurityTokenHandler jwtSecurityTokenHandler = new JwtSecurityTokenHandler();
+                var oldToken = await HttpContext.GetTokenAsync("access_token");
+                if (string.IsNullOrWhiteSpace(oldToken))
+                {
+                    return BadRequest(new
+                    {
+                        error = "登录已经失效，请重新登录"
+                    });
+                }
+
+                var tokenValidationParameters = new TokenValidationParameters
+                {
+                    ValidateIssuer = true,
+                    ValidIssuer = _config["Jwt:Issuer"],
+                    ValidateAudience = true,
+                    ValidAudience = _config["Jwt:Audience"],
+                    ValidateIssuerSigningKey = true,
+                    IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(_config["Jwt:Key"])),
+                    ValidateLifetime = true, // 验证过期时间
+                    ClockSkew = TimeSpan.Zero // 可设置时钟偏移量
+                };
+
+                // 验证令牌并获取ClaimsPrincipal
+                var principal = jwtSecurityTokenHandler.ValidateToken(oldToken, tokenValidationParameters, out var validatedToken);
+                var userId = SafeConvert.ToGuid(principal.Claims.FirstOrDefault(c => c.Type == "UserId")?.Value ?? "");
+                userInfo = await UserInfoService.GetByIdAsync(userId);
+                if (userInfo == null) return Unauthorized();
+
+                var oldRefreshToken =await _redisHelper.GetStringAsync($"RefreshTokenId:{userInfo.id.ToString()}");
+                if (string.IsNullOrWhiteSpace(oldRefreshToken))
+                {
+                    return BadRequest(new
+                    {
+                        error = "登录已经失效，请重新登录"
+                    });
+                }
+
+                if (oldRefreshToken != request.RefreshToken)
+                {
+                    return BadRequest(new
+                    {
+                        error = "登录已经失效，请重新登录"
+                    });
+                }
+
+                var token = GenerateJwtToken(userInfo);
+                var refreshToken = Guid.NewGuid().ToString("n");
+                await _redisHelper.SetStringAsync($"RefreshTokenId:{userInfo.id.ToString()}", refreshToken, TimeSpan.FromMinutes(SafeConvert.ToInt32(_config["Jwt:RefreshTokenExpiration"])));
+                result = new TokenResponse()
+                {
+                    AccessToken = token,
+                    RefreshToken = refreshToken,
+                    AccessTokenExpiration = DateTime.Now.AddMinutes(SafeConvert.ToInt32(_config["Jwt:AccessTokenExpiration"])),
+                    RefreshTokenExpiration = DateTime.Now.AddMinutes(SafeConvert.ToInt32(_config["Jwt:RefreshTokenExpiration"]))
+
+                };
+
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(new
+                {
+                    error = "登录已经失效，请重新登录"
+                });
+            }
+
+            return new JsonResult(result);
+        }
+
+
 
         private string GenerateJwtToken(UserInfo user)
         {
@@ -55,7 +156,7 @@ namespace Project.L.Controllers
                 issuer: _config["Jwt:Issuer"],
                 audience: _config["Jwt:Audience"],
                 claims: claims,
-                expires: DateTime.Now.AddMinutes(60),
+                expires: DateTime.Now.AddMinutes(SafeConvert.ToInt32(_config["Jwt:AccessTokenExpiration"])),//设置60分钟后过期
                 signingCredentials: credentials);
 
             return new JwtSecurityTokenHandler().WriteToken(token);

@@ -22,5 +22,10 @@ namespace Project.DAO.Impl
                 return await QueryFirstOrDefaultAsync(sql, new { username, password });
   
         }
+
+        public async Task<UserInfo?> GetByIdAsync(Guid id)
+        {
+            return await base.GetByIdAsync(id);
+        }
     }
 }

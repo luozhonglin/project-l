@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Project.DAO.Impl")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a1556af39e0bfeddb075334f9d7f85c3c351e8e6")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a90a60376af8aad2758b70e9cc0bf5abd9988a72")]
 [assembly: System.Reflection.AssemblyProductAttribute("Project.DAO.Impl")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Project.DAO.Impl")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
