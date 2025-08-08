@@ -10,3 +10,16 @@ C:\other\Project-Luo\Project.L\Project.SDK\obj\Debug\net8.0\Project.SDK.dll
 C:\other\Project-Luo\Project.L\Project.SDK\obj\Debug\net8.0\refint\Project.SDK.dll
 C:\other\Project-Luo\Project.L\Project.SDK\obj\Debug\net8.0\Project.SDK.pdb
 C:\other\Project-Luo\Project.L\Project.SDK\obj\Debug\net8.0\ref\Project.SDK.dll
+C:\other\project-l\Project.L\Project.SDK\bin\Debug\net8.0\Project.SDK.deps.json
+C:\other\project-l\Project.L\Project.SDK\bin\Debug\net8.0\Project.SDK.dll
+C:\other\project-l\Project.L\Project.SDK\bin\Debug\net8.0\Project.SDK.pdb
+C:\other\project-l\Project.L\Project.SDK\obj\Debug\net8.0\Project.SDK.csproj.AssemblyReference.cache
+C:\other\project-l\Project.L\Project.SDK\obj\Debug\net8.0\Project.SDK.GeneratedMSBuildEditorConfig.editorconfig
+C:\other\project-l\Project.L\Project.SDK\obj\Debug\net8.0\Project.SDK.AssemblyInfoInputs.cache
+C:\other\project-l\Project.L\Project.SDK\obj\Debug\net8.0\Project.SDK.AssemblyInfo.cs
+C:\other\project-l\Project.L\Project.SDK\obj\Debug\net8.0\Project.SDK.csproj.CoreCompileInputs.cache
+C:\other\project-l\Project.L\Project.SDK\obj\Debug\net8.0\Project.SDK.sourcelink.json
+C:\other\project-l\Project.L\Project.SDK\obj\Debug\net8.0\Project.SDK.dll
+C:\other\project-l\Project.L\Project.SDK\obj\Debug\net8.0\refint\Project.SDK.dll
+C:\other\project-l\Project.L\Project.SDK\obj\Debug\net8.0\Project.SDK.pdb
+C:\other\project-l\Project.L\Project.SDK\obj\Debug\net8.0\ref\Project.SDK.dll

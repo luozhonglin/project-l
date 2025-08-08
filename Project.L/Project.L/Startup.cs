@@ -1,16 +1,19 @@
 ﻿using Autofac;
 using Autofac.Core;
+using AutofacSerilogIntegration;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Controllers;
 using Microsoft.Extensions.DependencyInjection.Extensions;
 using Microsoft.IdentityModel.Tokens;
+using Microsoft.OpenApi.Models;
 using Project.DAO.Impl;
 using Project.DAO.Impl.DataBase;
 using Project.L.Common;
 using Project.Service.Impl;
 using System.Reflection;
 using System.Text;
+using static Mysqlx.Error.Types;
 
 namespace Project.L
 {
@@ -31,7 +34,11 @@ namespace Project.L
             //替换控制器激活器的配置用Autofac属性注入必须配置这个 因为Controller 默认是由 Mvc 模块管理的，需要把控制器放到IOC容器中
             services.Replace(ServiceDescriptor.Transient<IControllerActivator, ServiceBasedControllerActivator>());
 
-            services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
+            services.AddAuthentication(x =>
+            {
+                x.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
+                x.DefaultChallengeScheme = JwtBearerDefaults.AuthenticationScheme;
+            })
             .AddJwtBearer(options =>
             {
                 options.TokenValidationParameters = new TokenValidationParameters
@@ -53,7 +60,29 @@ namespace Project.L
             services.AddEndpointsApiExplorer();
             services.AddSwaggerGen(c =>
             {
-                c.SwaggerDoc("v1", new() { Title = "Luo.API", Version = "v1" });
+                c.AddSecurityDefinition("Bearer", new OpenApiSecurityScheme
+                {
+                    Description = "Jwt认证Token，在下方填入获得的Token. 示例: \"Bearer {token}\"",
+                    Name = "Authorization",
+                    In = ParameterLocation.Header,
+                    Type = SecuritySchemeType.ApiKey,
+                    BearerFormat = "JWT",
+                    Scheme = "Bearer"
+                });
+                c.AddSecurityRequirement(new OpenApiSecurityRequirement()
+                {
+                    { new OpenApiSecurityScheme()
+                       {
+                        Reference= new OpenApiReference()
+                        {
+                          Type=ReferenceType.SecurityScheme,
+                          Id="Bearer"
+                        }
+                      },
+                     new List<string>()
+                    }
+                });
+                //c.SwaggerDoc("v1", new() { Title = "Luo.API", Version = "v1" });
             });
 
 
@@ -81,6 +110,8 @@ namespace Project.L
             //Controller
             builder.RegisterAssemblyTypes(Assembly.GetExecutingAssembly()).AssignableTo<ControllerBase>().PropertiesAutowired();
 
+            //Logger
+            builder.RegisterLogger();
 
 
 
@@ -96,15 +127,23 @@ namespace Project.L
             // 配置中间件管道
             if (env.IsDevelopment())
             {
+                app.UseDeveloperExceptionPage();
                 app.UseSwagger();
-                app.UseSwaggerUI();
+                app.UseSwaggerUI(c =>
+                {
+                    c.SwaggerEndpoint("/swagger/v1/swagger.json", "Luo v1");
+                    //不展开控制器
+                    c.DocExpansion(Swashbuckle.AspNetCore.SwaggerUI.DocExpansion.None);
+                });
             }
             app.UseRouting();
             app.UseCors();
+            app.UseHttpsRedirection();
 
             app.UseAuthentication();
-            app.UseHttpsRedirection();
             app.UseAuthorization();
+
+
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapControllers();

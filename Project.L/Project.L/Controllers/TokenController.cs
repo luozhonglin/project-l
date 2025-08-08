@@ -25,7 +25,7 @@ namespace Project.L.Controllers
 
         [HttpPost("login")]
         [AllowAnonymous]
-        public async Task<IActionResult> Login(TokenRequest loginModel)
+        public async Task<IActionResult> Login([FromBody] TokenRequest loginModel)
         {
             var user = await UserInfoService.GetInfoAsync(loginModel.AccountName, loginModel.Password);
             if (user == null) return Unauthorized();
@@ -36,21 +36,21 @@ namespace Project.L.Controllers
 
         private string GenerateJwtToken(UserInfo user)
         {
-            var securityKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(_config["Jwt:Key"]));
-            var credentials = new SigningCredentials(securityKey, SecurityAlgorithms.HmacSha256);
-
             var claims = new[]
             {
-            new Claim(JwtRegisteredClaimNames.Sub, user.username.ToString()),
+            new Claim(JwtRegisteredClaimNames.Sub, user.username),
             new Claim(JwtRegisteredClaimNames.UniqueName, user.username),
-            new Claim(JwtRegisteredClaimNames.Jti, Guid.NewGuid().ToString())
+            new Claim(JwtRegisteredClaimNames.Jti, Guid.NewGuid().ToString()),
+            new Claim(ClaimTypes.Name, user.username)
         };
+            var securityKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(_config["Jwt:Key"]));
+            var credentials = new SigningCredentials(securityKey, SecurityAlgorithms.HmacSha256);
 
             var token = new JwtSecurityToken(
                 issuer: _config["Jwt:Issuer"],
                 audience: _config["Jwt:Audience"],
                 claims: claims,
-                expires: DateTime.Now.AddMinutes(30),
+                expires: DateTime.Now.AddMinutes(60),
                 signingCredentials: credentials);
 
             return new JwtSecurityTokenHandler().WriteToken(token);

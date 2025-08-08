@@ -1,8 +1,8 @@
 {
   "openapi": "3.0.1",
   "info": {
-    "title": "Luo.API",
-    "version": "v1"
+    "title": "Project.L",
+    "version": "1.0"
   },
   "paths": {
     "/api/Products/GetActiveProductsNew": {
@@ -140,6 +140,19 @@
         },
         "additionalProperties": false
       }
+    },
+    "securitySchemes": {
+      "Bearer": {
+        "type": "apiKey",
+        "description": "Jwt认证Token，在下方填入获得的Token. 示例: \"Bearer {token}\"",
+        "name": "Authorization",
+        "in": "header"
+      }
     }
-  }
+  },
+  "security": [
+    {
+      "Bearer": [ ]
+    }
+  ]
 }

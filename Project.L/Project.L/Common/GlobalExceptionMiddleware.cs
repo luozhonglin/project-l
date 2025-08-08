@@ -18,7 +18,7 @@ namespace Project.L.Common
         /// <summary>
         /// Initializes a new instance of the <see cref="GlobalExceptionFilter"/> class.
         /// </summary>
-        public GlobalExceptionMiddleware(IWebHostEnvironment env, ILogger logger)
+        public GlobalExceptionMiddleware(IWebHostEnvironment env, ILogger<GlobalExceptionMiddleware> logger)
         {
             this.env = env;
             this.logger = logger;

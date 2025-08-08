@@ -1,12 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "e8yZ/uxyidI=",
+  "dgSpecHash": "G9ImTGJ0pZk=",
   "success": true,
-  "projectFilePath": "C:\\other\\Project-Luo\\Project.L\\Project.L\\Project.L.csproj",
+  "projectFilePath": "C:\\other\\project-l\\Project.L\\Project.L\\Project.L.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\lzl\\.nuget\\packages\\autofac\\8.4.0\\autofac.8.4.0.nupkg.sha512",
     "C:\\Users\\lzl\\.nuget\\packages\\autofac.configuration\\7.0.0\\autofac.configuration.7.0.0.nupkg.sha512",
     "C:\\Users\\lzl\\.nuget\\packages\\autofac.extensions.dependencyinjection\\10.0.0\\autofac.extensions.dependencyinjection.10.0.0.nupkg.sha512",
+    "C:\\Users\\lzl\\.nuget\\packages\\autofacserilogintegration\\5.0.0\\autofacserilogintegration.5.0.0.nupkg.sha512",
     "C:\\Users\\lzl\\.nuget\\packages\\bouncycastle.cryptography\\2.5.1\\bouncycastle.cryptography.2.5.1.nupkg.sha512",
     "C:\\Users\\lzl\\.nuget\\packages\\dapper\\2.1.66\\dapper.2.1.66.nupkg.sha512",
     "C:\\Users\\lzl\\.nuget\\packages\\dapper.contrib\\2.0.78\\dapper.contrib.2.0.78.nupkg.sha512",
@@ -34,6 +35,7 @@
     "C:\\Users\\lzl\\.nuget\\packages\\microsoft.openapi\\1.6.14\\microsoft.openapi.1.6.14.nupkg.sha512",
     "C:\\Users\\lzl\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.22.1\\microsoft.visualstudio.azure.containers.tools.targets.1.22.1.nupkg.sha512",
     "C:\\Users\\lzl\\.nuget\\packages\\mysql.data\\9.4.0\\mysql.data.9.4.0.nupkg.sha512",
+    "C:\\Users\\lzl\\.nuget\\packages\\serilog\\2.9.0\\serilog.2.9.0.nupkg.sha512",
     "C:\\Users\\lzl\\.nuget\\packages\\swashbuckle.aspnetcore\\6.6.2\\swashbuckle.aspnetcore.6.6.2.nupkg.sha512",
     "C:\\Users\\lzl\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.6.2\\swashbuckle.aspnetcore.swagger.6.6.2.nupkg.sha512",
     "C:\\Users\\lzl\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.6.2\\swashbuckle.aspnetcore.swaggergen.6.6.2.nupkg.sha512",

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\other\\Project-Luo\\Project.L\\Project.L\\Project.L.csproj": {}
+    "C:\\other\\project-l\\Project.L\\Project.L\\Project.L.csproj": {}
   },
   "projects": {
-    "C:\\other\\Project-Luo\\Project.L\\Project.DAO.Impl\\Project.DAO.Impl.csproj": {
+    "C:\\other\\project-l\\Project.L\\Project.DAO.Impl\\Project.DAO.Impl.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\other\\Project-Luo\\Project.L\\Project.DAO.Impl\\Project.DAO.Impl.csproj",
+        "projectUniqueName": "C:\\other\\project-l\\Project.L\\Project.DAO.Impl\\Project.DAO.Impl.csproj",
         "projectName": "Project.DAO.Impl",
-        "projectPath": "C:\\other\\Project-Luo\\Project.L\\Project.DAO.Impl\\Project.DAO.Impl.csproj",
+        "projectPath": "C:\\other\\project-l\\Project.L\\Project.DAO.Impl\\Project.DAO.Impl.csproj",
         "packagesPath": "C:\\Users\\lzl\\.nuget\\packages\\",
-        "outputPath": "C:\\other\\Project-Luo\\Project.L\\Project.DAO.Impl\\obj\\",
+        "outputPath": "C:\\other\\project-l\\Project.L\\Project.DAO.Impl\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -32,14 +32,14 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\other\\Project-Luo\\Project.L\\Project.DAO\\Project.DAO.csproj": {
-                "projectPath": "C:\\other\\Project-Luo\\Project.L\\Project.DAO\\Project.DAO.csproj"
+              "C:\\other\\project-l\\Project.L\\Project.DAO\\Project.DAO.csproj": {
+                "projectPath": "C:\\other\\project-l\\Project.L\\Project.DAO\\Project.DAO.csproj"
               },
-              "C:\\other\\Project-Luo\\Project.L\\Project.Entities\\Project.Entities.csproj": {
-                "projectPath": "C:\\other\\Project-Luo\\Project.L\\Project.Entities\\Project.Entities.csproj"
+              "C:\\other\\project-l\\Project.L\\Project.Entities\\Project.Entities.csproj": {
+                "projectPath": "C:\\other\\project-l\\Project.L\\Project.Entities\\Project.Entities.csproj"
               },
-              "C:\\other\\Project-Luo\\Project.L\\Project.SDK\\Project.SDK.csproj": {
-                "projectPath": "C:\\other\\Project-Luo\\Project.L\\Project.SDK\\Project.SDK.csproj"
+              "C:\\other\\project-l\\Project.L\\Project.SDK\\Project.SDK.csproj": {
+                "projectPath": "C:\\other\\project-l\\Project.L\\Project.SDK\\Project.SDK.csproj"
               }
             }
           }
@@ -79,14 +79,14 @@
         }
       }
     },
-    "C:\\other\\Project-Luo\\Project.L\\Project.DAO\\Project.DAO.csproj": {
+    "C:\\other\\project-l\\Project.L\\Project.DAO\\Project.DAO.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\other\\Project-Luo\\Project.L\\Project.DAO\\Project.DAO.csproj",
+        "projectUniqueName": "C:\\other\\project-l\\Project.L\\Project.DAO\\Project.DAO.csproj",
         "projectName": "Project.DAO",
-        "projectPath": "C:\\other\\Project-Luo\\Project.L\\Project.DAO\\Project.DAO.csproj",
+        "projectPath": "C:\\other\\project-l\\Project.L\\Project.DAO\\Project.DAO.csproj",
         "packagesPath": "C:\\Users\\lzl\\.nuget\\packages\\",
-        "outputPath": "C:\\other\\Project-Luo\\Project.L\\Project.DAO\\obj\\",
+        "outputPath": "C:\\other\\project-l\\Project.L\\Project.DAO\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -107,11 +107,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\other\\Project-Luo\\Project.L\\Project.Entities\\Project.Entities.csproj": {
-                "projectPath": "C:\\other\\Project-Luo\\Project.L\\Project.Entities\\Project.Entities.csproj"
+              "C:\\other\\project-l\\Project.L\\Project.Entities\\Project.Entities.csproj": {
+                "projectPath": "C:\\other\\project-l\\Project.L\\Project.Entities\\Project.Entities.csproj"
               },
-              "C:\\other\\Project-Luo\\Project.L\\Project.SDK\\Project.SDK.csproj": {
-                "projectPath": "C:\\other\\Project-Luo\\Project.L\\Project.SDK\\Project.SDK.csproj"
+              "C:\\other\\project-l\\Project.L\\Project.SDK\\Project.SDK.csproj": {
+                "projectPath": "C:\\other\\project-l\\Project.L\\Project.SDK\\Project.SDK.csproj"
               }
             }
           }
@@ -151,14 +151,14 @@
         }
       }
     },
-    "C:\\other\\Project-Luo\\Project.L\\Project.Entities\\Project.Entities.csproj": {
+    "C:\\other\\project-l\\Project.L\\Project.Entities\\Project.Entities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\other\\Project-Luo\\Project.L\\Project.Entities\\Project.Entities.csproj",
+        "projectUniqueName": "C:\\other\\project-l\\Project.L\\Project.Entities\\Project.Entities.csproj",
         "projectName": "Project.Entities",
-        "projectPath": "C:\\other\\Project-Luo\\Project.L\\Project.Entities\\Project.Entities.csproj",
+        "projectPath": "C:\\other\\project-l\\Project.L\\Project.Entities\\Project.Entities.csproj",
         "packagesPath": "C:\\Users\\lzl\\.nuget\\packages\\",
-        "outputPath": "C:\\other\\Project-Luo\\Project.L\\Project.Entities\\obj\\",
+        "outputPath": "C:\\other\\project-l\\Project.L\\Project.Entities\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -179,8 +179,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\other\\Project-Luo\\Project.L\\Project.SDK\\Project.SDK.csproj": {
-                "projectPath": "C:\\other\\Project-Luo\\Project.L\\Project.SDK\\Project.SDK.csproj"
+              "C:\\other\\project-l\\Project.L\\Project.SDK\\Project.SDK.csproj": {
+                "projectPath": "C:\\other\\project-l\\Project.L\\Project.SDK\\Project.SDK.csproj"
               }
             }
           }
@@ -220,14 +220,14 @@
         }
       }
     },
-    "C:\\other\\Project-Luo\\Project.L\\Project.L\\Project.L.csproj": {
+    "C:\\other\\project-l\\Project.L\\Project.L\\Project.L.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\other\\Project-Luo\\Project.L\\Project.L\\Project.L.csproj",
+        "projectUniqueName": "C:\\other\\project-l\\Project.L\\Project.L\\Project.L.csproj",
         "projectName": "Project.L",
-        "projectPath": "C:\\other\\Project-Luo\\Project.L\\Project.L\\Project.L.csproj",
+        "projectPath": "C:\\other\\project-l\\Project.L\\Project.L\\Project.L.csproj",
         "packagesPath": "C:\\Users\\lzl\\.nuget\\packages\\",
-        "outputPath": "C:\\other\\Project-Luo\\Project.L\\Project.L\\obj\\",
+        "outputPath": "C:\\other\\project-l\\Project.L\\Project.L\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -248,20 +248,20 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\other\\Project-Luo\\Project.L\\Project.DAO.Impl\\Project.DAO.Impl.csproj": {
-                "projectPath": "C:\\other\\Project-Luo\\Project.L\\Project.DAO.Impl\\Project.DAO.Impl.csproj"
+              "C:\\other\\project-l\\Project.L\\Project.DAO.Impl\\Project.DAO.Impl.csproj": {
+                "projectPath": "C:\\other\\project-l\\Project.L\\Project.DAO.Impl\\Project.DAO.Impl.csproj"
               },
-              "C:\\other\\Project-Luo\\Project.L\\Project.DAO\\Project.DAO.csproj": {
-                "projectPath": "C:\\other\\Project-Luo\\Project.L\\Project.DAO\\Project.DAO.csproj"
+              "C:\\other\\project-l\\Project.L\\Project.DAO\\Project.DAO.csproj": {
+                "projectPath": "C:\\other\\project-l\\Project.L\\Project.DAO\\Project.DAO.csproj"
               },
-              "C:\\other\\Project-Luo\\Project.L\\Project.SDK\\Project.SDK.csproj": {
-                "projectPath": "C:\\other\\Project-Luo\\Project.L\\Project.SDK\\Project.SDK.csproj"
+              "C:\\other\\project-l\\Project.L\\Project.SDK\\Project.SDK.csproj": {
+                "projectPath": "C:\\other\\project-l\\Project.L\\Project.SDK\\Project.SDK.csproj"
               },
-              "C:\\other\\Project-Luo\\Project.L\\Project.Service.Impl\\Project.Service.Impl.csproj": {
-                "projectPath": "C:\\other\\Project-Luo\\Project.L\\Project.Service.Impl\\Project.Service.Impl.csproj"
+              "C:\\other\\project-l\\Project.L\\Project.Service.Impl\\Project.Service.Impl.csproj": {
+                "projectPath": "C:\\other\\project-l\\Project.L\\Project.Service.Impl\\Project.Service.Impl.csproj"
               },
-              "C:\\other\\Project-Luo\\Project.L\\Project.Service\\Project.Service.csproj": {
-                "projectPath": "C:\\other\\Project-Luo\\Project.L\\Project.Service\\Project.Service.csproj"
+              "C:\\other\\project-l\\Project.L\\Project.Service\\Project.Service.csproj": {
+                "projectPath": "C:\\other\\project-l\\Project.L\\Project.Service\\Project.Service.csproj"
               }
             }
           }
@@ -282,6 +282,10 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "AutofacSerilogIntegration": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
             "Microsoft.AspNetCore.Authentication.JwtBearer": {
               "target": "Package",
               "version": "[7.0.8, )"
@@ -322,14 +326,14 @@
         }
       }
     },
-    "C:\\other\\Project-Luo\\Project.L\\Project.SDK\\Project.SDK.csproj": {
+    "C:\\other\\project-l\\Project.L\\Project.SDK\\Project.SDK.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\other\\Project-Luo\\Project.L\\Project.SDK\\Project.SDK.csproj",
+        "projectUniqueName": "C:\\other\\project-l\\Project.L\\Project.SDK\\Project.SDK.csproj",
         "projectName": "Project.SDK",
-        "projectPath": "C:\\other\\Project-Luo\\Project.L\\Project.SDK\\Project.SDK.csproj",
+        "projectPath": "C:\\other\\project-l\\Project.L\\Project.SDK\\Project.SDK.csproj",
         "packagesPath": "C:\\Users\\lzl\\.nuget\\packages\\",
-        "outputPath": "C:\\other\\Project-Luo\\Project.L\\Project.SDK\\obj\\",
+        "outputPath": "C:\\other\\project-l\\Project.L\\Project.SDK\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -421,14 +425,14 @@
         }
       }
     },
-    "C:\\other\\Project-Luo\\Project.L\\Project.Service.Impl\\Project.Service.Impl.csproj": {
+    "C:\\other\\project-l\\Project.L\\Project.Service.Impl\\Project.Service.Impl.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\other\\Project-Luo\\Project.L\\Project.Service.Impl\\Project.Service.Impl.csproj",
+        "projectUniqueName": "C:\\other\\project-l\\Project.L\\Project.Service.Impl\\Project.Service.Impl.csproj",
         "projectName": "Project.Service.Impl",
-        "projectPath": "C:\\other\\Project-Luo\\Project.L\\Project.Service.Impl\\Project.Service.Impl.csproj",
+        "projectPath": "C:\\other\\project-l\\Project.L\\Project.Service.Impl\\Project.Service.Impl.csproj",
         "packagesPath": "C:\\Users\\lzl\\.nuget\\packages\\",
-        "outputPath": "C:\\other\\Project-Luo\\Project.L\\Project.Service.Impl\\obj\\",
+        "outputPath": "C:\\other\\project-l\\Project.L\\Project.Service.Impl\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -449,17 +453,17 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\other\\Project-Luo\\Project.L\\Project.DAO\\Project.DAO.csproj": {
-                "projectPath": "C:\\other\\Project-Luo\\Project.L\\Project.DAO\\Project.DAO.csproj"
+              "C:\\other\\project-l\\Project.L\\Project.DAO\\Project.DAO.csproj": {
+                "projectPath": "C:\\other\\project-l\\Project.L\\Project.DAO\\Project.DAO.csproj"
               },
-              "C:\\other\\Project-Luo\\Project.L\\Project.Entities\\Project.Entities.csproj": {
-                "projectPath": "C:\\other\\Project-Luo\\Project.L\\Project.Entities\\Project.Entities.csproj"
+              "C:\\other\\project-l\\Project.L\\Project.Entities\\Project.Entities.csproj": {
+                "projectPath": "C:\\other\\project-l\\Project.L\\Project.Entities\\Project.Entities.csproj"
               },
-              "C:\\other\\Project-Luo\\Project.L\\Project.SDK\\Project.SDK.csproj": {
-                "projectPath": "C:\\other\\Project-Luo\\Project.L\\Project.SDK\\Project.SDK.csproj"
+              "C:\\other\\project-l\\Project.L\\Project.SDK\\Project.SDK.csproj": {
+                "projectPath": "C:\\other\\project-l\\Project.L\\Project.SDK\\Project.SDK.csproj"
               },
-              "C:\\other\\Project-Luo\\Project.L\\Project.Service\\Project.Service.csproj": {
-                "projectPath": "C:\\other\\Project-Luo\\Project.L\\Project.Service\\Project.Service.csproj"
+              "C:\\other\\project-l\\Project.L\\Project.Service\\Project.Service.csproj": {
+                "projectPath": "C:\\other\\project-l\\Project.L\\Project.Service\\Project.Service.csproj"
               }
             }
           }
@@ -499,14 +503,14 @@
         }
       }
     },
-    "C:\\other\\Project-Luo\\Project.L\\Project.Service\\Project.Service.csproj": {
+    "C:\\other\\project-l\\Project.L\\Project.Service\\Project.Service.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\other\\Project-Luo\\Project.L\\Project.Service\\Project.Service.csproj",
+        "projectUniqueName": "C:\\other\\project-l\\Project.L\\Project.Service\\Project.Service.csproj",
         "projectName": "Project.Service",
-        "projectPath": "C:\\other\\Project-Luo\\Project.L\\Project.Service\\Project.Service.csproj",
+        "projectPath": "C:\\other\\project-l\\Project.L\\Project.Service\\Project.Service.csproj",
         "packagesPath": "C:\\Users\\lzl\\.nuget\\packages\\",
-        "outputPath": "C:\\other\\Project-Luo\\Project.L\\Project.Service\\obj\\",
+        "outputPath": "C:\\other\\project-l\\Project.L\\Project.Service\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -527,14 +531,14 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\other\\Project-Luo\\Project.L\\Project.DAO\\Project.DAO.csproj": {
-                "projectPath": "C:\\other\\Project-Luo\\Project.L\\Project.DAO\\Project.DAO.csproj"
+              "C:\\other\\project-l\\Project.L\\Project.DAO\\Project.DAO.csproj": {
+                "projectPath": "C:\\other\\project-l\\Project.L\\Project.DAO\\Project.DAO.csproj"
               },
-              "C:\\other\\Project-Luo\\Project.L\\Project.Entities\\Project.Entities.csproj": {
-                "projectPath": "C:\\other\\Project-Luo\\Project.L\\Project.Entities\\Project.Entities.csproj"
+              "C:\\other\\project-l\\Project.L\\Project.Entities\\Project.Entities.csproj": {
+                "projectPath": "C:\\other\\project-l\\Project.L\\Project.Entities\\Project.Entities.csproj"
               },
-              "C:\\other\\Project-Luo\\Project.L\\Project.SDK\\Project.SDK.csproj": {
-                "projectPath": "C:\\other\\Project-Luo\\Project.L\\Project.SDK\\Project.SDK.csproj"
+              "C:\\other\\project-l\\Project.L\\Project.SDK\\Project.SDK.csproj": {
+                "projectPath": "C:\\other\\project-l\\Project.L\\Project.SDK\\Project.SDK.csproj"
               }
             }
           }
