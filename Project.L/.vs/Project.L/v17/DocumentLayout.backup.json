@@ -3,14 +3,6 @@
   "WorkspaceRootPath": "C:\\other\\project-l\\Project.L\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C0D50B5F-58E9-41CB-AC09-E136D5B7CDE2}|Project.L\\Project.L.csproj|c:\\other\\project-l\\project.l\\project.l\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{C0D50B5F-58E9-41CB-AC09-E136D5B7CDE2}|Project.L\\Project.L.csproj|solutionrelative:project.l\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E0842508-E652-4ACF-AD50-990E13F5BBD8}|Project.SDK\\Project.SDK.csproj|c:\\other\\project-l\\project.l\\project.sdk\\redis\\redisservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E0842508-E652-4ACF-AD50-990E13F5BBD8}|Project.SDK\\Project.SDK.csproj|solutionrelative:project.sdk\\redis\\redisservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{C0D50B5F-58E9-41CB-AC09-E136D5B7CDE2}|Project.L\\Project.L.csproj|c:\\other\\project-l\\project.l\\project.l\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C0D50B5F-58E9-41CB-AC09-E136D5B7CDE2}|Project.L\\Project.L.csproj|solutionrelative:project.l\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -19,8 +11,8 @@
       "RelativeMoniker": "D:0:0:{C0D50B5F-58E9-41CB-AC09-E136D5B7CDE2}|Project.L\\Project.L.csproj|solutionrelative:project.l\\controllers\\tokencontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{57EF44EB-65BC-40B2-B513-515EF280A84B}|Project.DAO.Impl\\Project.DAO.Impl.csproj|c:\\other\\project-l\\project.l\\project.dao.impl\\productdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{57EF44EB-65BC-40B2-B513-515EF280A84B}|Project.DAO.Impl\\Project.DAO.Impl.csproj|solutionrelative:project.dao.impl\\productdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E0842508-E652-4ACF-AD50-990E13F5BBD8}|Project.SDK\\Project.SDK.csproj|c:\\other\\project-l\\project.l\\project.sdk\\redis\\redishelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0842508-E652-4ACF-AD50-990E13F5BBD8}|Project.SDK\\Project.SDK.csproj|solutionrelative:project.sdk\\redis\\redishelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C0D50B5F-58E9-41CB-AC09-E136D5B7CDE2}|Project.L\\Project.L.csproj|c:\\other\\project-l\\project.l\\project.l\\controllers\\baseapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -33,6 +25,14 @@
     {
       "AbsoluteMoniker": "D:0:0:{C0D50B5F-58E9-41CB-AC09-E136D5B7CDE2}|Project.L\\Project.L.csproj|c:\\other\\project-l\\project.l\\project.l\\common\\requestmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C0D50B5F-58E9-41CB-AC09-E136D5B7CDE2}|Project.L\\Project.L.csproj|solutionrelative:project.l\\common\\requestmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0D50B5F-58E9-41CB-AC09-E136D5B7CDE2}|Project.L\\Project.L.csproj|c:\\other\\project-l\\project.l\\project.l\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{C0D50B5F-58E9-41CB-AC09-E136D5B7CDE2}|Project.L\\Project.L.csproj|solutionrelative:project.l\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57EF44EB-65BC-40B2-B513-515EF280A84B}|Project.DAO.Impl\\Project.DAO.Impl.csproj|c:\\other\\project-l\\project.l\\project.dao.impl\\productdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{57EF44EB-65BC-40B2-B513-515EF280A84B}|Project.DAO.Impl\\Project.DAO.Impl.csproj|solutionrelative:project.dao.impl\\productdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,7 +42,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 9,
           "Children": [
             {
               "$type": "Bookmark",
@@ -58,33 +58,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 6,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\other\\project-l\\Project.L\\Project.L\\appsettings.json",
               "RelativeDocumentMoniker": "Project.L\\appsettings.json",
               "ToolTip": "C:\\other\\project-l\\Project.L\\Project.L\\appsettings.json",
               "RelativeToolTip": "Project.L\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAEAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2025-08-08T06:30:53.515Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "RedisService.cs",
-              "DocumentMoniker": "C:\\other\\project-l\\Project.L\\Project.SDK\\Redis\\RedisService.cs",
-              "RelativeDocumentMoniker": "Project.SDK\\Redis\\RedisService.cs",
-              "ToolTip": "C:\\other\\project-l\\Project.L\\Project.SDK\\Redis\\RedisService.cs",
-              "RelativeToolTip": "Project.SDK\\Redis\\RedisService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAJAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "RedisHelper.cs",
+              "DocumentMoniker": "C:\\other\\project-l\\Project.L\\Project.SDK\\Redis\\RedisHelper.cs",
+              "RelativeDocumentMoniker": "Project.SDK\\Redis\\RedisHelper.cs",
+              "ToolTip": "C:\\other\\project-l\\Project.L\\Project.SDK\\Redis\\RedisHelper.cs",
+              "RelativeToolTip": "Project.SDK\\Redis\\RedisHelper.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAAwB0AAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-08T06:29:10.528Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 7,
               "Title": "ProductDAO.cs",
               "DocumentMoniker": "C:\\other\\project-l\\Project.L\\Project.DAO.Impl\\ProductDAO.cs",
               "RelativeDocumentMoniker": "Project.DAO.Impl\\ProductDAO.cs",
@@ -97,7 +97,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 3,
               "Title": "BaseApiController.cs",
               "DocumentMoniker": "C:\\other\\project-l\\Project.L\\Project.L\\Controllers\\BaseApiController.cs",
               "RelativeDocumentMoniker": "Project.L\\Controllers\\BaseApiController.cs",
@@ -110,20 +110,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "TokenController.cs",
               "DocumentMoniker": "C:\\other\\project-l\\Project.L\\Project.L\\Controllers\\TokenController.cs",
               "RelativeDocumentMoniker": "Project.L\\Controllers\\TokenController.cs",
               "ToolTip": "C:\\other\\project-l\\Project.L\\Project.L\\Controllers\\TokenController.cs",
               "RelativeToolTip": "Project.L\\Controllers\\TokenController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADQAAAAxAAAAAAAAAA==",
+              "ViewState": "AgIAACgAAAAAAAAAAAAQwCAAAABDAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-08T05:34:00.204Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 4,
               "Title": "ProductsController.cs",
               "DocumentMoniker": "C:\\other\\project-l\\Project.L\\Project.L\\Controllers\\ProductsController.cs",
               "RelativeDocumentMoniker": "Project.L\\Controllers\\ProductsController.cs",
@@ -136,20 +136,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "Startup.cs",
               "DocumentMoniker": "C:\\other\\project-l\\Project.L\\Project.L\\Startup.cs",
               "RelativeDocumentMoniker": "Project.L\\Startup.cs",
               "ToolTip": "C:\\other\\project-l\\Project.L\\Project.L\\Startup.cs",
               "RelativeToolTip": "Project.L\\Startup.cs",
-              "ViewState": "AgIAAEIAAAAAAAAAAAAQwGYAAACEAAAAAAAAAA==",
+              "ViewState": "AgIAAE4AAAAAAAAAAAAQwG4AAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-08T05:26:38.173Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 5,
               "Title": "RequestMiddleware.cs",
               "DocumentMoniker": "C:\\other\\project-l\\Project.L\\Project.L\\Common\\RequestMiddleware.cs",
               "RelativeDocumentMoniker": "Project.L\\Common\\RequestMiddleware.cs",

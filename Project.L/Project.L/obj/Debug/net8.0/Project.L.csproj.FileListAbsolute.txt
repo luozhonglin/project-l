@@ -177,3 +177,8 @@ C:\other\project-l\Project.L\Project.L\bin\Debug\net8.0\AutofacSerilogIntegratio
 C:\other\project-l\Project.L\Project.L\bin\Debug\net8.0\Serilog.dll
 C:\other\project-l\Project.L\Project.L\bin\Debug\net8.0\Pipelines.Sockets.Unofficial.dll
 C:\other\project-l\Project.L\Project.L\bin\Debug\net8.0\StackExchange.Redis.dll
+C:\other\project-l\Project.L\Project.L\bin\Debug\net8.0\Microsoft.Extensions.Caching.Abstractions.dll
+C:\other\project-l\Project.L\Project.L\bin\Debug\net8.0\Microsoft.Extensions.Caching.StackExchangeRedis.dll
+C:\other\project-l\Project.L\Project.L\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\other\project-l\Project.L\Project.L\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+C:\other\project-l\Project.L\Project.L\bin\Debug\net8.0\System.Diagnostics.DiagnosticSource.dll

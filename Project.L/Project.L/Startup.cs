@@ -100,7 +100,18 @@ namespace Project.L
             //全局异常处理
             services.AddScoped<GlobalExceptionMiddleware>();
 
-            services.AddSingleton<IConnectionMultiplexer>(_ =>ConnectionMultiplexer.Connect(Configuration.GetConnectionString("Redis")));
+            //services.AddSingleton<IConnectionMultiplexer>(_ =>ConnectionMultiplexer.Connect(Configuration.GetConnectionString("Redis")));
+            services.AddSingleton<IConnectionMultiplexer>(x => ConnectionMultiplexer.Connect(new ConfigurationOptions
+            {
+                EndPoints = { Configuration["Redis:EndPoints"] },
+                Password = Configuration["Redis:Password"],
+                AbortOnConnectFail = false,
+                ConnectRetry = 3,
+                ConnectTimeout = 5000,
+                SyncTimeout = 5000,
+                DefaultDatabase = 2,
+                AllowAdmin = true // 允许管理操作
+            }));
         }
 
 
